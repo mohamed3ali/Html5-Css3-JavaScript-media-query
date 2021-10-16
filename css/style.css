@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+  *{
+	  margin:0;
+	  padding:0;
+	  box-sizing: border-box;
+  }
+  html,body {
+	font-family: 'Roboto', sans-serif;
+	line-height:1.5;
+}
+a {
+	text-decoration:none
+}
+.container {
+	max-width:80%;
+	margin:auto
+}
+.book {
+	background-color:#030509;
+	color:#FFF;
+}
+.book-head img{
+	width:100px;
+	height:80px
+}
+.text-primary {
+	  color:#0f78fa
+}
+.text-center {
+	text-align:center
+}
+.heading {
+	font-size:3rem;
+	text-transform:uppercase;
+	color:#FFF
+}
+.py-1 {
+	padding:1.5rem 0 ;
+}
+.p-1 {
+padding:1.5rem;
+}	
+.btn {
+	background-color:#08D9D6;
+	color:#FFF;
+	padding:0.75rem 1.5rem;
+	border-radius:5px
+}
+.btn-dark {
+	background-color:#252A34;
+	color:#FFF
+}
+.btn:hover {
+	background-color:#0f78fa
+}
+.bg-primary {
+	background-color:#CCC;
+	color:#FFF
+}
+.box-shadow {
+	background-color:#CCC
+}
+#navbar {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	position:sticky;
+	top:0;
+	z-index:1;
+	
+}
+
+
+ #navbar ul {
+list-style: none;
+display:flex;
+
+}
+#navbar ul li {
+margin-left:20px
+}
+ #navbar ul li a {
+color:#FFF;
+ }	 
+ #navbar ul li a:hover {
+	 background-color:#08D9D6;
+	 border-radius:5px;
+	 padding:10px
+ }
+#showcase {
+	background:#252A34;
+	background:url('../images/lol.jpg') no-repeat center center/cover;
+	height:100vh;
+}
+
+#home .showcase-content {
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+height:100%;
+background-color:rgba(0,0,0,0.7);
+}	
+.bg-light {
+	background-color:#CCC
+	
+}
+.m-heading {
+	font-size:2.3rem
+}
+.about-contect {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding-top:26px
+}
+
+.about-contecttt  {
+	font-size:17px;
+}
+#about .about-contect div,
+#about .about-contect img {
+	flex:1
+}
+#about .about-contect img {
+	width:50%;
+	margin-left:1.5rem;
+	border:5px solid #FFF
+}
+.cta-content .lead {
+	font-size:1rem
+}
+#programs {
+	background:url('../images/kk.jpg') no-repeat center center/cover;
+	color:#FFF
+}
+#programs .cta-content {
+	min-height:350px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	background-color:rgba(0,0,0,0.7);
+	padding:5rem;
+	overflow:hidden;
+}
+.cta-content p {
+	margin-bottom:15px
+}
+
+.boxes img {
+	
+	width:100px;
+	height:100px
+}
+#program .boxes {
+	display:flex;
+	justify-content:center;
+	align-items:center
+}
+#program .boxes .box {
+	display:1;
+	text-align:center;
+	padding:1rem;
+	
+}
+#program .boxes .box p {
+	color:#CCC
+}
+#trainers {
+	background-color:#FFF
+}
+.trainers-boxe {
+display:flex
+}
+.trainers-boxes {
+border:1px solid #000;
+margin-left:10px
+}
+.trainers-boxes img {
+	width:200px;
+	height:200px;
+	display:block;
+	width:100%;
+	margin-bottom:10px
+}
+.trainers-boxes p {
+color:#FFF;
+font-size:19px
+}
+.trainers-boxe .trainers-boxes  {
+	flex:1;
+	border-radius:5px;
+}
+.trainers-boxes ul {
+	display:flex;
+	list-style:none;
+	margin:10px;
+}
+.trainers-boxes ul li a {
+	margin-right:5px;
+	color:#000
+}
+.trainers-boxes ul li a:hover {
+	color:#0f78fa
+}
+#contact {
+	display:flex;
+	padding-top:15px
+}
+#contact .contact-us,
+#contact #map {
+	flex:1;
+}
+#contact .contact-us input,
+#contact .contact-us textarea {
+	width:100%;
+	padding:0.75rem;
+	border:none;
+	margin-bottom:1rem;
+	outline:none
+}
+#contact .contact-us .boook {
+	display:flex
+	
+}
+#contact h2 {
+	color:#0f78fa
+}
+#contact .contact-us .boook input[type="text"]{
+ margin-right:5px
+}
+#non {
+	font-size:15px
+}

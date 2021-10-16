@@ -1,0 +1,36 @@
+.heading {
+	font-size:1rem;
+	line-height:1.3
+}
+#navbar {
+	flex-direction:column;
+	padding-bottom:5px
+}
+#navbar .book-head {
+	margin-bottom:3px
+}
+.about-contect {
+	display:block;
+	text-align:center;
+	
+	}
+#about .about-contect img {
+width:100%;
+margin:1rem 0 0 0;
+}	
+
+#program .boxes{
+	display:block
+}
+
+#trainers .trainers-boxe {
+display:block;
+}
+.trainers-boxes {
+margin-bottom:10px
+}
+
+#contact {
+	flex-direction:column;
+	height:1000px
+}
